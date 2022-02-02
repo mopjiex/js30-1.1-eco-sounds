@@ -1,0 +1,99 @@
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding: 0 10px;
+    max-width: 1620px;
+    margin: 0 auto;
+}
+
+.wrap {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header {
+    background-color: #000;
+    height: 50px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    width: 70px;
+    height: 50px;
+}
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__menu-link{
+    color: #fff;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    transition: background 0.3s ease, color 0.5s linear;
+    text-transform: uppercase;
+    
+}
+
+.active {
+    color: #00FF00;
+}
+
+.main {
+    flex:1 1 auto;
+    background-image: url(/images/drozd.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__audio {
+    height: 150px;
+    width: 150px;
+}
+
+.footer {
+    background: #000;
+    height: 60px;
+}
+
+.github {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.footer__text, .footer__link {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__logo {
+        width: 70px;
+        height: 50px;
+}
+
+.header__menu-link:hover, .footer__link:hover{
+    color: #33FFFF;
+   
+}
