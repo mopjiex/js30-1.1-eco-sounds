@@ -53,13 +53,14 @@ a {
 
 .main {
     flex:1 1 auto;
-    background-image: url(/images/drozd.jpg);
+    background-image: url(/images/solovey.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.main__audio {
+.main__audio-img {
+    
     height: 150px;
     width: 150px;
 }
