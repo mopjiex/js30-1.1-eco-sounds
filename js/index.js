@@ -19,11 +19,13 @@ function pauseAudio() {
 
 for(let i = 0; i < headerMenuLink.length; i++) {
     headerMenuLink[i].addEventListener('click', function()  {
-        isPlay = true;
         for(let i = 0; i < headerMenuLink.length; i++) {
             headerMenuLink[i].classList.remove('active');
         }
         this.classList.add('active');
+        mainLinkAudio.classList.add('pause');
+        mainAudioImg.src = './images/svg/play.svg';
+        pauseAudio();
 
         if(headerMenuLink[i].classList.contains('solovei')) {
             main.style.background = `url(/images/solovey.jpg)`;
